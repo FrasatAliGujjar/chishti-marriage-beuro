@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="text-2xl font-serif font-bold text-rose-800 hover:text-rose-600 transition-colors duration-300">
+            <Link href="/" className="md:text-2xl font-serif font-bold text-rose-800 hover:text-rose-600 transition-colors duration-300">
               Chishti Marriage Bureau
             </Link>
           </div>

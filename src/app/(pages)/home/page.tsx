@@ -16,7 +16,7 @@ export default function HomePage() {
             alt="Hero background"
             fill
             priority
-            className="object-cover"
+            className="md:object-cover"
             sizes="100vw"
             quality={100}
           />

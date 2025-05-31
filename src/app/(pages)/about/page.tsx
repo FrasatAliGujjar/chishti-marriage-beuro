@@ -90,7 +90,7 @@ const AboutPage: React.FC = () => {
               user-friendly applications that solve real-world problems.
             </Paragraph>
             <Divider className="border-rose-100" />
-            <Title level={4} className="text-rose-700 font-serif">
+            {/* <Title level={4} className="text-rose-700 font-serif">
               Technical Expertise
             </Title>
             <ul className="list-disc pl-6 text-gray-600 space-y-2">
@@ -100,11 +100,13 @@ const AboutPage: React.FC = () => {
               <li>Ant Design</li>
               <li>Tailwind CSS</li>
             </ul>
-            <Divider className="border-rose-100" />
+            <Divider className="border-rose-100" /> */}
             <Title level={4} className="text-rose-700 font-serif">
               Contact
             </Title>
             <Paragraph className="text-gray-600">
+              Phone: <Link href="https://wa.me/923419385624" target="_blank" rel="noopener noreferrer" className="text-rose-600 hover:text-rose-800 transition-colors duration-300">+92 341 9385624</Link>
+              <br />
               Email: <Link href="mailto:frasatali120@gmail.com" className="text-rose-600 hover:text-rose-800 transition-colors duration-300">frasatali120@gmail.com</Link>
               <br />
               GitHub: <Link href="https://github.com/FrasatAliGujjar" target="_blank" rel="noopener noreferrer" className="text-rose-600 hover:text-rose-800 transition-colors duration-300">https://github.com/FrasatAliGujjar</Link>
