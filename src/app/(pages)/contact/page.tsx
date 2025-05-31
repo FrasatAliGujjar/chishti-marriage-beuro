@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import { Form, Input, Button } from "antd";
 import {
   FaPhone,
-  FaEnvelope,
-  FaMapMarkerAlt,
+  // FaEnvelope,
+  // FaMapMarkerAlt,
   FaWhatsapp,
 } from "react-icons/fa";
 import Swal from "sweetalert2";
@@ -36,7 +36,7 @@ Subject: ${values.subject}
 Message: ${values.message}
       `;
 
-      const whatsappNumber = "923419385624";
+      const whatsappNumber = "923367690594";
       const encodedMessage = encodeURIComponent(message);
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
@@ -89,7 +89,7 @@ Message: ${values.message}
                 </div>
                 <div>
                   <h3 className="font-medium text-rose-800 text-lg">Phone</h3>
-                  <p className="text-rose-600">+92 341 9385624</p>
+                  <p className="text-rose-600">+92 336 7690594</p>
                 </div>
               </div>
 
@@ -101,11 +101,11 @@ Message: ${values.message}
                   <h3 className="font-medium text-rose-800 text-lg">
                     WhatsApp
                   </h3>
-                  <p className="text-rose-600">+92 341 9385624</p>
+                  <p className="text-rose-600">+92 336 7690594</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-5">
+              {/* <div className="flex items-start space-x-5">
                 <div className="bg-blue-50 p-3 rounded-full">
                   <FaEnvelope className="text-blue-500 text-xl" />
                 </div>
@@ -115,9 +115,9 @@ Message: ${values.message}
                     info@chishtimarriagebureau.com
                   </p>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="flex items-start space-x-5">
+              {/* <div className="flex items-start space-x-5">
                 <div className="bg-red-50 p-3 rounded-full">
                   <FaMapMarkerAlt className="text-red-500 text-xl" />
                 </div>
@@ -127,7 +127,7 @@ Message: ${values.message}
                     123 Marriage Street, Lahore, Pakistan
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Business Hours */}
@@ -137,10 +137,10 @@ Message: ${values.message}
               </h3>
               <div className="space-y-3">
                 <p className="text-rose-600">
-                  Monday - Friday: 9:00 AM - 6:00 PM
+                  Monday - Sunday : 9:00 AM - 9:00 PM
                 </p>
-                <p className="text-rose-600">Saturday: 10:00 AM - 4:00 PM</p>
-                <p className="text-rose-600">Sunday: Closed</p>
+                {/* <p className="text-rose-600">Saturday: 10:00 AM - 4:00 PM</p>
+                <p className="text-rose-600">Sunday: Closed</p> */}
               </div>
             </div>
           </div>
