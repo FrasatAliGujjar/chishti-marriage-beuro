@@ -175,6 +175,10 @@ const RistaForm: React.FC = () => {
 
   const generateWhatsAppMessage = (values: FormData): string => {
     const message = `
+*I am sending proposal from your Website*
+
+*_________________________________*
+
 *New Marriage Proposal Submission*
 
 *Personal Information:*
@@ -223,6 +227,11 @@ ${values.address}
         : values.requirements.caste
     }
 - Qualification: ${values.requirements.qualification}
+
+
+*_________________________________*
+
+Thanks
     `;
 
     return encodeURIComponent(message.trim());
