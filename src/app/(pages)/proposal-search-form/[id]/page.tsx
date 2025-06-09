@@ -77,7 +77,7 @@ export default function ProposalProfilePage() {
 
   const handleWhatsAppContact = () => {
     // const phoneNumber = "923419385624";
-    const phoneNumber = "923367690594";
+    const phoneNumber = "923426941091";
     const message = `Asslam-o-Alaikum !
 
 i am interesed ih this proposal

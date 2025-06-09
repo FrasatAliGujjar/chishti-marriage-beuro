@@ -36,7 +36,7 @@ Subject: ${values.subject}
 Message: ${values.message}
       `;
 
-      const whatsappNumber = "923367690594";
+      const whatsappNumber = "923426941091";
       const encodedMessage = encodeURIComponent(message);
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 

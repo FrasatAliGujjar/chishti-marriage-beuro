@@ -28,8 +28,8 @@ const Footer = () => {
       { label: "Privacy Protection", href: "#" },
     ],
     contact: [
-      { icon: <FaPhone />, text: "+92 336 7690594" },
-      { icon: <FaWhatsapp />, text: "+92 336 7690594" },
+      { icon: <FaPhone />, text: "+92 342 6941091" },
+      { icon: <FaWhatsapp />, text: "+92 342 6941091" },
     ],
   };
 
